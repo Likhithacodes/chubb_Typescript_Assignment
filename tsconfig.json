@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "target": "ES6",              // Use ES6 for modern JavaScript features
+    "lib": ["ES6", "DOM"],        // Add support for ES6 features like Promises and DOM
+    "module": "commonjs",          // Standard for Node.js module system
+    "strict": true,                // Enable all strict type-checking options
+    "esModuleInterop": true,       // Enable import/export compatibility between ES6 and CommonJS
+    "skipLibCheck": true           // Skip type checks for all declaration files (.d.ts)
+  }
+}
